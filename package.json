@@ -2,14 +2,13 @@
   "name": "lz4",
   "version": "1.0.0",
   "description": "",
-  "main": "lz4.js",
-  "dependencies": {
-  },
+  "main": "index.ts",
+  "dependencies": {},
   "devDependencies": {
-    "typescript": "^2.0.3",
-    "webpack": "^1.13.2",
+    "superstatic": "^4.1.0",
     "ts-loader": "^0.8.2",
-    "superstatic": "^4.0.3"
+    "typescript": "^2.4.2",
+    "webpack": "^3.3.0"
   },
   "scripts": {
     "build": "webpack --optimize-minimize",

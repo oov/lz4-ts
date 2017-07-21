@@ -1,12 +1,12 @@
 module.exports = {
-    entry: './src/lz4.ts',
+    entry: './index.ts',
     output: {
         filename: './lz4.js',
         library: "LZ4",
         libraryTarget: "umd"
     },
     resolve: {
-        extensions: ['', '.webpack.js', '.web.js', '.ts', '.tsx', '.js']
+        extensions: ['.webpack.js', '.web.js', '.ts', '.tsx', '.js']
     },
     module: {
         loaders: [

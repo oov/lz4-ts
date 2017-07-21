@@ -27,6 +27,7 @@
   },
   "compileOnSave": false,
   "include": [
+    "./*.ts",
     "./src/**/*.ts",
     "node_modules/@types/**/*.ts"
   ],

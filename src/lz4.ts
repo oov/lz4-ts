@@ -68,7 +68,7 @@ function getUint32(a: Uint8Array, i: number): number {
     return (a[i + 3]) | (a[i + 2] << 8) | (a[i + 1] << 16) | (a[i] << 24);
 }
 
-function copy(dest: Uint8Array, src: Uint8Array, di: number, si: number, len: number) {
+function copy(dest: Uint8Array, src: Uint8Array, di: number, si: number, len: number): void {
     for (let i = 0; i < len; ++i) {
         dest[di++] = src[si++];
     }
